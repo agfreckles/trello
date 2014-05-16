@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Draggable</title>
+	<link href = "css/bootstrap.min.css" rel = "stylesheet" media = "screen">
+	<link href = "css/custom.css"    rel = "stylesheet" media = "screen">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+	<div class = "container">
+		<div class = "header row ">
+
+		</div>
+		<div class = "row">
+			<div class="col-xs-4">
+				<div class = "pane">
+					pane
+					<div class="col-xs-8-offset-2 card" draggable="true">
+						the card you can move
+					</div>
+					<div class="col-xs-8-offset-2 card" draggable="true">
+						the card you can move
+					</div>
+					<div class="col-xs-8-offset-2 card" draggable="true">
+						the card you can move
+					</div>
+					<div class="col-xs-8-offset-2 card" draggable="true">
+						the card you can move
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-4 ">
+				<div class = "pane">
+					// content of To Do pane
+
+				</div>
+
+			</div>
+			<div class="col-xs-4 ">
+				<div class = "pane">
+					// content of To Do pane
+				</div>
+			</div>
+
+		</div>
+
+		<hr />
+		<div class = "footer">
+		<div class="col3sp">
+			<form action="/search/" method="get">
+				<input name="q" type="text"  value="look" class="suchfeld" onfocus="this.value=''"  />
+				<input type="submit" value="search" class="suchbtn" /></form>
+			</div>
+			<div class="col3sp">
+				<p><a href="#" title="Startseite" class="home">Home</a><a href="#" title="Kontakt" class="email">email</a><a href="#" title="Impressum" class="imp">contact</a><a href="#" title="HEBAtec Kontakt Client">search</a></p>
+			</div>
+			<div class="col3sp">
+				<p>&copy; agDrag 2000-2013</p>
+			</div>
+	</div>
+  </div>
+	
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/custom.js"></script>
+</html>

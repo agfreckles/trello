@@ -1,0 +1,47 @@
+.container{
+font-family: 'Ubuntu', sans-serif;
+background: url('../img/tx5.jpg');
+height: 600px;
+border-radius: 5px 5px 5px 5px;
+padding: 8px;
+}
+.over {
+  border: 2px dashed #000;
+}
+
+.pane{
+	
+	margin: 0px;
+	background: url('../img/par.jpg');
+	border-radius: 5px 5px 5px 5px;
+	min-height: 40px;
+	/* opacity:0.4;
+	    filter:alpha(opacity=40);     */
+    border: 1px solid #000000
+}
+
+.card{
+	background: url('../img/wd.jpg');
+	border-radius: 5px;
+	margin: 20px;
+	border: solid;
+	
+	padding: 10px;
+}
+
+.hr {
+color: #CFC3AC;
+border: 0;
+height: 1px;
+background-color: #CFC3AC;
+margin: 20px 0px 20px 0;
+}
+
+.col3sp {
+width: 28%;
+padding: 10px 5% 0 0;
+float: left;
+}
+.footer{
+border-width: 5px;
+}
